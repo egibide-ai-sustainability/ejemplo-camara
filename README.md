@@ -1,5 +1,7 @@
 # ejemplo-camara
 
+Ejemplo para probar la cámara de la Pi.
+
 ## Prerrequisitos
 
 Instalar Poetry:
@@ -18,7 +20,7 @@ poetry config virtualenvs.options.system-site-packages true
 poetry install
 ```
 
-Probar la camara:
+Probar la cámara:
 
 ```
 poetry run python3 camera-test.py
